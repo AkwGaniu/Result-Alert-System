@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Result Alert System</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/admin.css">
+    <script src = "../js/jquery-3.3.1.min.js"></script>
+    <script src = "../js/adminForm.js"></script>
+  </head>
+    <body>
+
+        <div class="topDiv">
+            <h1>Result Alert System</h1>
+            
+        </div>
+
+        <div class="miduDiv">
+            
+            <img src="../images/lapologo1.jfif" alt="Logo" class = "logo">
+            <span id ="loader">Student Record Entry</span>
+                <form action="#" id="form">
+                        <select name="" id="select">
+                            <option value="choose">SELECT COURSE</option>
+                            <option value="Com212">Com 212</option>
+                            <option value="Com214">Com 214</option>
+                            <option value="Com222">Com 222</option>
+                            <option value="Com211">Com 211</option>
+                            <option value="Com218">Com 218</option>
+                        </select>
+                        <span id="errSelect"></span>
+                        <input type="text" id =  "courseTitle" placeholder="Course title..." disabled>
+                        <input type="text" id =  "matNum" placeholder="Student Matric Number..."> 
+                        <span id="errmatNum"></span>
+                        <input type="text" id = "score" placeholder="Score..."> 
+                        <span id="errScore"></span>
+                        <input type="submit" id="submit" value="Submit">
+                </form>
+            
+        </div>
+
+        <div class="bottomDiv">
+            <div class="salute">Project developed by Enny</div>
+        </div>
+       
+        <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5c3c8c02ab5284048d0ce792/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+    </body>
+</html>

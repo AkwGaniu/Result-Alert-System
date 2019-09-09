@@ -1,0 +1,25 @@
+.courseInput{
+    border-radius : 7px;
+    padding: 10px;
+}
+
+.position {
+    font-weight: bold;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.modalAdmin{
+    width: 100%;
+    height:100%;
+    /* background-image: url("../images/lf.jfif"); */
+   background-color: rgba(0,0,0,0.95);
+    /* opacity: 0.8; */
+    /* background-attachment: fixed; */
+    /* background-size:cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
